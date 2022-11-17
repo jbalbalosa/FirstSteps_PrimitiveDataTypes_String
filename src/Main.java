@@ -28,7 +28,16 @@ public class Main {
 
         String numberString = "250.55";
         numberString = numberString +  "49.95";
-        System.out.printf(numberString);
+        System.out.println(numberString);
+
+        String lastString = "10";
+        int myInt = 50;
+        lastString =  lastString + myInt;
+        System.out.println("lastString is equal to " + lastString);
+
+        double doubleNumber = 120.47d;
+        lastString = lastString + doubleNumber;
+        System.out.printf("LastString is equal to "+ lastString);
 
     }
 }
